@@ -1,9 +1,5 @@
 import junit.framework.TestCase;
 import devtest.FizzBuzz;
-/**
- * Created by eidan on 5/11/14.
- */
-
 
 public class FizzBuzzTest extends TestCase {
 

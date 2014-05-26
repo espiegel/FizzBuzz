@@ -1,9 +1,6 @@
 import devtest.Palindrome;
 import junit.framework.TestCase;
 
-/**
- * Created by eidan on 5/11/14.
- */
 public class PalindromeTest extends TestCase {
 
     public void testString1() {
