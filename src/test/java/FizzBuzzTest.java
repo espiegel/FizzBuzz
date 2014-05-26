@@ -48,4 +48,29 @@ public class FizzBuzzTest extends TestCase {
         assertEquals("172", fizzbuzz.toString());
     }
 
+    public void testInputZero() {
+        FizzBuzz fizzbuzz = new FizzBuzz(0);
+        assertEquals("Undefined", fizzbuzz.toString());
+    }
+
+    public void testInputNegativeOne() {
+        FizzBuzz fizzbuzz = new FizzBuzz(-1);
+        assertEquals("Undefined", fizzbuzz.toString());
+    }
+
+    public void testInputNegativeThree() {
+        FizzBuzz fizzbuzz = new FizzBuzz(-3);
+        assertEquals("Undefined", fizzbuzz.toString());
+    }
+
+    public void testInputNegativeFive() {
+        FizzBuzz fizzbuzz = new FizzBuzz(-5);
+        assertEquals("Undefined", fizzbuzz.toString());
+    }
+
+    public void testInputNegativeEleven() {
+        FizzBuzz fizzbuzz = new FizzBuzz(-11);
+        assertEquals("Undefined", fizzbuzz.toString());
+    }
+
 }
