@@ -3,11 +3,11 @@ import junit.framework.TestCase;
 
 public class PalindromeTest extends TestCase {
 
-    public void testString1() {
+   public void testString1() {
         assertEquals(Palindrome.isPalindrome("abab"), false);
     }
 
-    public void testString2() {
+   public void testString2() {
         assertEquals(Palindrome.isPalindrome("abba"), true);
     }
 
