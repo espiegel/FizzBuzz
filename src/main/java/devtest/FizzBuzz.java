@@ -8,6 +8,23 @@ public class FizzBuzz {
     }
 
     public String toString() {
-        return null;
+        String res = "";
+        if (this.number<=0)
+        {
+            return "Undefined";
+        }
+        if (this.number % 3 == 0)
+        {
+            res = "Fizz";
+        }
+        if(this.number % 5 == 0)
+        {
+            res += "Buzz";
+        }
+        if(res == "")
+        {
+            res = this.number + "";
+        }
+        return res;
     }
 }
