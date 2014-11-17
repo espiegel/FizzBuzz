@@ -8,6 +8,15 @@ public class FizzBuzz {
     }
 
     public String toString() {
-        return null;
+        if (number <= 0)
+            return "Undefined";
+        if (number % 3 == 0) {
+            if (number % 5 == 0)
+                return "FizzBuzz";
+            return "Fizz";
+        }
+        if (number % 5 == 0)
+            return "Buzz";
+        return String.valueOf(number);
     }
 }
