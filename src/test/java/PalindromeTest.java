@@ -58,4 +58,14 @@ public class PalindromeTest extends TestCase {
     public void testString14() {
         assertEquals(Palindrome.isPalindrome("A Santa at Nasa"), true);
     }
+
+    public void testString15() {
+        assertEquals(Palindrome.isPalindrome("   a     a    a "), true);
+    }
+
+    public void testString16() {
+        assertEquals(Palindrome.isPalindrome("   ba     aa    a b "), true);
+    }
+
+
 }
