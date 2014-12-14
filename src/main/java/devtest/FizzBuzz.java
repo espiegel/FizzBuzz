@@ -8,6 +8,20 @@ public class FizzBuzz {
     }
 
     public String toString() {
-        return null;
+        String res = "";
+        if ( number <= 0 ) {
+            return "Undefined";
+        }
+
+        if ( number % 3 == 0 ) {
+            res += "Fizz";
+        }
+        if ( number % 5 == 0 ) {
+            res += "Buzz";
+        }
+        if ( res.equals( "" ) ) {
+            return Integer.toString(number);
+        }
+        return res;
     }
 }
