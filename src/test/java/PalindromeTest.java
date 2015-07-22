@@ -67,5 +67,11 @@ public class PalindromeTest extends TestCase {
         assertEquals(Palindrome.isPalindrome("   ba     aa    a b "), true);
     }
 
+    public void testString17() {
+        assertEquals(Palindrome.isPalindrome(" ba     aa    a b                                                              "), true);
+    }
 
+    public void testString18() {
+        assertEquals(Palindrome.isPalindrome("                                                                   ba     aa    a b  "), true);
+    }
 }
